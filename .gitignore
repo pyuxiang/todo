@@ -5,6 +5,9 @@
 /notes/yarn.lock
 /notes/hidden/
 
+# Source notes
+*.docx
+
 *.gem
 *.rbc
 /.config

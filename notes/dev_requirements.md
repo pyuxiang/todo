@@ -35,11 +35,11 @@
     - Use Redux for managing application state in React
     - Use Docker to containerize software within UNIX environment
 
-For the mid-term submission, a short writeup of basic use case and execution plan,
+For the mid-term submission (2019-12-30), a short writeup of basic use case and execution plan,
 as well as suggestions and problems faced should be submitted, in pdf format.
 No longer than 3 A4 sides with 12pt Georgia-equivalent font face.
 
-For the final submission, a short writeup of accomplishments with user manual,
+For the final submission (2020-01-25), a short writeup of accomplishments with user manual,
 same submission format. Proof of working application must be available.
 
 For forum with other CVWO applicants, search [here](https://github.com/tiuweehan/CVWO-2020/issues). Follow the [CVWO guide](https://github.com/tiuweehan/CVWO-2020/) once Rails is setup.

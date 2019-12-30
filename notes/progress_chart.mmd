@@ -1,15 +1,18 @@
 gantt
    dateFormat  YYYY-MM-DD
-   title Adding GANTT diagram functionality to mermaid
+   title Project schedule
 
    %% Documentation here: https://mermaid-js.github.io/mermaid/#/gantt
 
-   section Section1 Title
-   Completed task            :crit, done,    des1, 2014-01-06, 2014-01-12
-   Active task               :done,          des2, 2014-01-09, 3d
-   Future task               :active,        des3, after des2, 5d
-   Future task2              :               des4, after des3, 5d
-   Critical task             :crit, active,  after des2, 3d
-   Append task               :crit,          90h
+   section Frontend
+   Complete Rails tutorial: crit, active, rails, 2019-12-29, 4d
+   Proof-of-concept UI with React: crit, basic, after rails, 9d
+   Refine UI for create/tag: crit, refine, after basic, 8d
+   Add login page: crit, login, after refine, 3d
+   Setup server: 2020-01-20, 5d
 
-   %% Add more sections here
+   section Backend
+   Plan db schema: schema, after rails, 3d
+   Implement task creation: create, after schema, 7d
+   Implement tagging system: tag, after create, 3d
+   Implement account creation: after refine, 3d
